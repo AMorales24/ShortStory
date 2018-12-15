@@ -14,23 +14,22 @@
 
     <ImageView
         android:id="@+id/book"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/storysym"/>
+        android:layout_width="447dp"
+        android:layout_height="447dp"
+        android:src="@drawable/storysym" />
 
     <Button
-    android:id="@+id/open_button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Begin"/>
+        android:id="@+id/open_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Reading List" />
 
     <Button
         android:id="@+id/send_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send Feedback"/>
-
-
+        android:text="Send Feedback"
+        android:visibility="visible" />
 
 
 </LinearLayout>
