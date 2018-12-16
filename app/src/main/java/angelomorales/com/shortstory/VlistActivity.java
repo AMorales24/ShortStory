@@ -10,6 +10,8 @@ import java.util.List;
 
 public class VlistActivity extends AppCompatActivity {
 
+    public static final String VIDEO_URL_EXTRA = "example.com.myvideoplayer.VIDEO_URL_EXTRA";
+
     private RecyclerView mRecyclerView;
 
     @Override

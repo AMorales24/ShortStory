@@ -53,7 +53,7 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoHolder>
         public void onClick(View v) {
             VideoObject videoObj = mVideoObjects.get(getLayoutPosition());
             Intent intent = new Intent(v.getContext(), VideoActivity.class);
-            intent.putExtra(MainActivity.VIDEO_URL_EXTRA, videoObj.url);
+            intent.putExtra(VlistActivity.VIDEO_URL_EXTRA, videoObj.url);
             v.getContext().startActivity(intent);
         }
     }

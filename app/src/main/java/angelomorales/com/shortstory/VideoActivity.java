@@ -16,7 +16,7 @@ public class VideoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
 
-        String urlString = getIntent().getStringExtra(MainActivity.VIDEO_URL_EXTRA);
+        String urlString = getIntent().getStringExtra(VlistActivity.VIDEO_URL_EXTRA);
         //Toast.makeText(VideoActivity.this, urlString, Toast.LENGTH_SHORT).show();
 
         mVideoView = (VideoView)findViewById(R.id.video);
