@@ -8,25 +8,25 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/Storytime"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Storytime"/>
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:id="@+id/book"
-        android:layout_width="447dp"
-        android:layout_height="447dp"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
         android:src="@drawable/storysym" />
 
     <Button
         android:id="@+id/open_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Today's Reading List" />
 
     <Button
         android:id="@+id/send_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Send Feedback"
         android:visibility="visible" />
